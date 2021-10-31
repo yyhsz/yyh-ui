@@ -1,14 +1,24 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+/*
+ * @Author: your name
+ * @Date: 2021-10-27 13:10:38
+ * @LastEditTime: 2021-10-27 15:32:30
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \my-react-ui\src\index.tsx
+ */
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+// import "./my.scss";
+// import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import Icon from "./icon/index";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Icon name="baidu" className="123123" style={{ fill: "green" }} />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function
