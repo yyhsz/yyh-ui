@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-10-27 13:10:38
- * @LastEditTime: 2021-10-27 15:32:30
+ * @LastEditTime: 2021-11-11 21:06:26
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \my-react-ui\src\index.tsx
@@ -24,4 +24,4 @@ ReactDOM.render(
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// reportWebVitals();
